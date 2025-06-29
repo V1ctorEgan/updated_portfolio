@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/navbar'
 import Home from './pages/Home'
 import About from './pages/About'
+import Technical from './pages/Technical'
 
 function App() {
 
@@ -10,9 +11,10 @@ function App() {
       <div className=' w-full bg-blue-300 text-black'>
         <Navbar />
         <Home />
-        <div>
-          <About />
-        </div>
+        <About />
+        <Technical />
+        
+
       </div>
     </>
   )

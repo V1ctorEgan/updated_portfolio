@@ -1,6 +1,6 @@
 const BtnG = () =>{
     return(
-        <div className="rounded-[12px] lg:w-[219px] md:w-[173px] w-[395px] h-[64px] bg-linear-to-r bg-[#22C55E] flex justify-center items-center md:mt-[74px]">
+        <div className="rounded-[12px] lg:w-[219px] md:w-[173px] w-[395px] h-[64px] bg-gradient-to-r from-[#4ADE80] to-[#22C55E]  flex justify-center items-center md:mt-[74px]">
                 View My Work
         </div>
     )
