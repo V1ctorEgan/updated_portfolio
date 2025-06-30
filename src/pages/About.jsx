@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="bg-[#0F0F0F] pb-[111.5px] lg:pl-8 p-4 flex md:flex-col flex-col lg:flex-row lg:justify-evenly lg:pr-2 pt-[122px]">
       <section className="lg:w-[50%]   lg:pr-16 ">
-        <h2 className=" text-3xl md:text-4xl lg:text-5xl text-green-200 pb-[42px]">
+        <h2 className=" text-3xl md:text-4xl lg:text-5xl pb-[42px] bg-gradient-to-l font-bold from-[#4ADE80] to-[#ffffff] gradient-text">
           About Me
         </h2>
         <p className="text-[#999999] text-xl ">

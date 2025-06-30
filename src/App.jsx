@@ -3,6 +3,8 @@ import Navbar from './components/navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Technical from './pages/Technical'
+import Projects from './pages/Projects'
+import GetInTouch from './pages/GetInTouch'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
         <Home />
         <About />
         <Technical />
+        <Projects />
+        <GetInTouch />
         
 
       </div>
