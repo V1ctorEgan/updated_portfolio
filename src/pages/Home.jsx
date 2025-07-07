@@ -29,7 +29,7 @@ const Home = () =>{
           }
         `}
       </style>
-      <BackgroundCanvas />  
+      {/* <BackgroundCanvas />   */}
             <LargeLogo />
             <h1 className="text-green-300 lg:text-[72px] hover:shadow-md md:text-[48px] text-[30px] mb-[56px] bg-gradient-to-l font-bold from-[#4ADE80] to-[#ffffff] gradient-text animate-pulse">Full stack Developer</h1>
           

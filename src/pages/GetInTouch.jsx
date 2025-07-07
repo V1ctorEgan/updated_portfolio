@@ -1,6 +1,7 @@
 import BtnMessage from "../components/btnMessage";
 import Email from "../assets/img/message.png"
 import Phone from "../assets/img/phone-symbol.png"
+import ContactForm from "../components/form/contactForm";
 
 const GetInTouch = () =>{
      <style>
@@ -63,7 +64,8 @@ const GetInTouch = () =>{
                 </div>
             </div>
             <div className="w-full mt-[48px] ">
-                <form className="bg-[#222222] w-full h-[572px] rounded-[16px] p-[33px]">
+              <ContactForm />
+                {/* <form className="bg-[#222222] w-full h-[572px] rounded-[16px] p-[33px]">
                     <div className="flex gap-[16px] mb-[24px]">
                         <div className="w-full">
                             <p className="text-white text-[14px]">Name</p>
@@ -83,9 +85,9 @@ const GetInTouch = () =>{
                         <textarea className="w-full h-[180px] rounded-[12px] bg-[#333333] mt-[8px] text-black text-[16px] pl-[16px] h-[146px]" />
                     </div>
                     <button className="w-full h-[48px] rounded-[12px] mt-[30px] bg-gradient-to-r to-[#4ADE80] from-[#22C55E] text-black font-semibold hover:scale-105 glow"> Send Message</button>
-                    {/* <BtnMessage /> */}
+                    
 
-                </form>
+                </form> */}
             </div>
             
         </div>
