@@ -3,9 +3,28 @@ import ExperienceComp from "../components/experienceComp";
 
 const About = () => {
   return (
-    <div className="bg-[#0F0F0F] pb-[111.5px] lg:pl-8 p-4 flex md:flex-col flex-col lg:flex-row lg:justify-evenly lg:pr-2 pt-[122px]">
+    <div name="about" className="bg-[#0F0F0F] pb-[111.5px] lg:pl-8 p-4 flex md:flex-col flex-col lg:flex-row lg:justify-evenly lg:pr-2 pt-[122px]">
+      <style>
+        {`
+          @keyframes glow {
+            0% {
+              box-shadow: 0 0 2px #4ade80, 0 0 5px #4ade80, 0 0 10px #22c55e;
+            }
+            50% {
+              box-shadow: 0 0 5px #4ade80, 0 0 15px #22c55e, 0 0 20px #22c55e;
+            }
+            100% {
+              box-shadow: 0 0 2px #4ade80, 0 0 5px #4ade80, 0 0 10px #22c55e;
+            }
+          }
+
+          .glow {
+            animation: glow 2s ease-in-out infinite;
+          }
+        `}
+      </style>
       <section className="lg:w-[50%]   lg:pr-16 ">
-        <h2 className=" text-3xl md:text-4xl lg:text-5xl pb-[42px] bg-gradient-to-l font-bold from-[#4ADE80] to-[#ffffff] gradient-text">
+        <h2 className=" text-3xl md:text-4xl lg:text-5xl pb-[42px] bg-gradient-to-l font-bold from-[#4ADE80] to-[#ffffff] gradient-text hover:glow cursor-pointer">
           About Me
         </h2>
         <p className="text-[#999999] text-xl ">
