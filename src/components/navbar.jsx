@@ -26,11 +26,11 @@ const Navbar = () =>{
             </div>
             {showNavbar && 
                     <div className="flex flex-col gap-[50px] z-100 bg-[#333333] h-screen w-[380px] justify-center items-center mt-[400px] md:hidden"> 
-                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-3xl border-b border-[#222222]"><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></p>
-                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-3xl border-b border-[#222222]"><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></p>
-                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-3xl border-b border-[#222222]"><Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></p>
-                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-3xl border-b border-[#222222]"><Link onClick={handleClick} to="project" smooth={true} duration={500}>Projects</Link> </p>
-                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-3xl border-b border-[#222222]"><Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contacts</Link> </p>
+                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-2xl "><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></p>
+                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-2xl "><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></p>
+                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-2xl "><Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></p>
+                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-2xl "><Link onClick={handleClick} to="project" smooth={true} duration={500}>Projects</Link> </p>
+                        <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer text-2xl "><Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contacts</Link> </p>
  
                     </div>
                 }
