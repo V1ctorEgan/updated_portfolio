@@ -59,7 +59,7 @@ function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-[#222222] w-full h-[572px] rounded-[16px] p-[33px]">
+    <form onSubmit={handleSubmit} className="bg-[#222222] w-full rounded-[16px] p-[33px]">
       <div className="md:flex gap-[16px] mb-[24px] ">
         <div className="w-full">
           <p className="text-white text-[14px]"><label htmlFor="name-input">Name</label></p>
@@ -75,7 +75,7 @@ function ContactForm() {
           />
         </div>
         <div className="w-full">
-          <p className="text-white text-[14px]"><label htmlFor="email-input">Email</label></p>
+          <p className="text-white text-[14px] mt-2 md:mt-0"><label htmlFor="email-input">Email</label></p>
           <input
             id="email-input"
             name="email"
