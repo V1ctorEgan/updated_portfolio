@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 export default function TypingText() {
   const fullText = "Building innovative solutions with cutting-edge technology";
-  const [displayedText, setDisplayedText] = useState('');
+  const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ export default function TypingText() {
         // Wait, then restart
         clearInterval(interval);
         setTimeout(() => {
-          setDisplayedText('');
+          setDisplayedText("");
           setIndex(0);
         }, pauseAfterComplete);
       }

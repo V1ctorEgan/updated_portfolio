@@ -20,7 +20,7 @@ const Navbar = () =>{
                 <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer"><Link to="project" smooth={true} duration={500}>Projects</Link> </p>
                 <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer"><Link to="contact" smooth={true} duration={500}>Contacts</Link> </p>
             </div>
-            <div className="md:hidden  ml-auto">
+            <div className="md:hidden ml-auto mr-2">
                 {!showNavbar && <img src={Menu} alt="menu hamburger" className="w-[24px] h-[24px] hover:scale-110" onClick={handleClick}/>}
                 
             </div>
