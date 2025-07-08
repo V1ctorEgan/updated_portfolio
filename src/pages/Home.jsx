@@ -31,7 +31,7 @@ const Home = () =>{
       </style>
       {/* <BackgroundCanvas />   */}
             <LargeLogo />
-            <h1 className="text-green-300 lg:text-[72px] hover:shadow-md md:text-[48px] text-[30px] mb-[56px] bg-gradient-to-l font-bold from-[#4ADE80] to-[#ffffff] gradient-text animate-pulse">Full stack Developer r</h1>
+            <h1 className="text-green-300 lg:text-[72px] hover:shadow-md md:text-[48px] text-[30px] mb-[56px] bg-gradient-to-l font-bold from-[#4ADE80] to-[#ffffff] gradient-text animate-pulse">Full stack Developer </h1>
           
             {/* <p className="text-green-400 md:text-xl lg:text-2xl text-[14px] animate-fade-in ">Building innovative solutions with cutting-edge technology</p> */}
             <TypingText />
@@ -39,7 +39,7 @@ const Home = () =>{
                 <BtnG />
                 <BtnT />
             </div>
-            <div className="flex flex-col md:flex-row mt-20 md:justify-evenly md:w-[779px] gap-[24px] md:gap-0">
+            <div className="flex flex-col md:flex-row mt-20 md:justify-evenly md:w-[779px] gap-[24px] md:gap-0 w-full border border-black px-3">
                 <BrownBox first={'4+'} sec={'Years Experience'} />
                 <BrownBox first={'100%'} sec={'Clients Satisfaction'} />
                 <BrownBox first={'100%'} sec={'Success Rate'} />

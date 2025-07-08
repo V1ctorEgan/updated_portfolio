@@ -13,48 +13,12 @@ const Projects = () =>{
                         <div>
                         <MiddleCarousel />
                         </div>
-            {/* <div className="hidden md:flex lg:hidden text-white p-[24px] w-full">
-                <div className="w-full bg-[#222222] h-[582px] p-[32px] rounded-[16px]">
-                    <div className="w-full flex items-center justify-start gap-2">
-                        <p className="bg-[#4ADE80] w-[12px] h-[12px] rounded-[6px]"></p>
-                        <p className="text-[#999999]">Featured Project</p>
-                    </div>
-                    <p className="text-white font-bold text-[24px] mt-[16px] mb-[16px]">Social Media Dashboard</p>
-                    <p className="text-[#999999] mb-[27px]" >Analytics dashboard for social media management with real-time data visualization</p>
-                    <p className="text-[#999999] mb-[25px] text-[14px]" ><span className="text-[#4ADE80] text-[14px] font-semibold">Technologies:</span> React native, Redux</p>
-                    <div className="flex w-[270px] gap-[16px]">
-                        <div className="text-center flex items-center justify-center font-semibold hover:scale-110 hover:border-[2px] w-full h-[52px] rounded-[12px] bg-gradient-to-l to-[#4ADE80] from-[#22C55E] text-black ">View Live</div>
-                        <div className="text-center flex items-center justify-center font-semibold hover:scale-110 hover:border-[2px] border border-[#999999]  w-full h-[52px] rounded-[12px]">View Code</div>
-                    </div>
-                    <div className="w-full h-[256px] bg-[#333333] flex mt-[32px] justify-center items-center rounded-[12px]">
-                        <p className="text-center  text-green-100 text-[72px] ">Dashboard</p>
-                    </div>
-                </div>
-            </div> */}
+            
 
 
                             {/* Mobile View */}
                             <MobileCarousel />
-            {/* <div className="md:hidden text-white w-full p-[16px]">
-                <div className="h-[558px] w-full bg-[#222222] rounded-[16px] p-[25px]">
-                    <div className="w-full flex items-center justify-start gap-2">
-                        <p className="bg-[#4ADE80] w-[12px] h-[12px] rounded-[6px]"></p>
-                        <p className="text-[#999999]">Featured Project</p>
-                    </div>
-                    <p className="text-white font-bold text-[20px] mt-[16px] mb-[16px]">Social Media Dashboard</p>
-                    <div className="flex justify-center items-center bg-green-400 rounded-[8px] w-full h-[192px]">
-                        <p className="text-[48px] text-black font-bold">Dashboard</p>
-                    </div>
-                    <p className="text-[#999999] mb-[16px] mt-[18px] text-[14px]" >Analytics dashboard for social media management with real-time data visualization</p>
-                    <p className="text-[#999999] mb-[26px] text-[14px] " ><span className="text-[#4ADE80] text-[14px] font-semibold">Technologies:</span> React native, Redux</p>
-                    <div className="text-center flex items-center justify-center font-semibold hover:scale-110 hover:border-[2px] mb-[12px] w-full h-[52px] rounded-[12px] bg-gradient-to-l to-[#4ADE80] from-[#22C55E] text-black ">View Live</div>
-                    <div className="text-center flex items-center justify-center font-semibold hover:scale-110 hover:border-[2px] border border-[#999999]  w-full h-[52px] rounded-[12px]">View Code</div>
-
-
-                </div>
-                
-
-            </div> */}
+            
 
 
 

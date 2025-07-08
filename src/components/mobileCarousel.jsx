@@ -81,7 +81,7 @@ export default function MobileCarousel() {
   };
 
   return (
-    <div className="md:hidden text-white w-full p-[16px] relative overflow-hidden">
+    <div className="md:hidden text-white w-full p-[16px] relative overflow-hidden mb-3">
       <AnimatePresence custom={direction} mode="wait">
         <motion.div
           key={index}
@@ -105,7 +105,7 @@ export default function MobileCarousel() {
           onMouseLeave={() => setIsHovered(false)}
           className="w-full"
         >
-          <div className="h-[558px] w-full bg-[#222222] rounded-[16px] p-[25px]">
+          <div className=" w-full bg-[#222222] rounded-[16px] p-[25px]">
             <div className="w-full flex items-center justify-start gap-2">
               <p className="bg-[#4ADE80] w-[12px] h-[12px] rounded-[6px]"></p>
               <p className="text-[#999999]">Featured Project</p>
