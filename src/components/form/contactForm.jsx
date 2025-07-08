@@ -32,7 +32,7 @@ function ContactForm() {
     try {
       // Make a POST request to your Vercel Serverless Function
       // The path '/api/contact' corresponds to your 'api/contact.js' file
-      const response = await fetch('../../api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
