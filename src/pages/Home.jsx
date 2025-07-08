@@ -39,7 +39,7 @@ const Home = () =>{
                 <BtnG />
                 <BtnT />
             </div>
-            <div className="flex flex-col md:flex-row mt-20 md:justify-evenly md:w-[779px] gap-[24px] md:gap-0 w-full border border-black px-3">
+            <div className="flex flex-col md:flex-row mt-20 md:justify-evenly md:w-[779px] gap-[24px] md:gap-0 w-full  px-3">
                 <BrownBox first={'4+'} sec={'Years Experience'} />
                 <BrownBox first={'100%'} sec={'Clients Satisfaction'} />
                 <BrownBox first={'100%'} sec={'Success Rate'} />
