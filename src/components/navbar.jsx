@@ -10,10 +10,10 @@ const Navbar = () =>{
 
     }
     return(
-        <div className="items-center flex w-full top-0  z-10 bg-[#222222] h-[60px] text-white fixed">
+        <div className="items-center flex w-full top-0  z-10 bg-[#222222] h-[60px] text-white fixed  ">
             <Logo />
             <p className="hover:scale-110 z-40">Egan Developer</p>
-            <div className="md:flex ml-auto w-[473px] mr-[41px] justify-evenly hidden">
+            <div className="md:flex ml-auto md:w-[473px] mr-[41px] justify-evenly hidden">
                 <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer"><Link to="home" smooth={true} duration={500}>Home</Link></p>
                 <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer"><Link to="about" smooth={true} duration={500}>About</Link></p>
                 <p className="hover:text-green-500 text-[#999999] hover:scale-110 cursor-pointer"><Link to = "skills" smooth={true} duration={500}>Skills</Link></p>

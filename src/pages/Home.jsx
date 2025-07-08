@@ -35,7 +35,7 @@ const Home = () =>{
           
             {/* <p className="text-green-400 md:text-xl lg:text-2xl text-[14px] animate-fade-in ">Building innovative solutions with cutting-edge technology</p> */}
             <TypingText />
-            <div className="flex md:justify-center gap-1 md:gap-[23px] flex-col md:flex-row mt-[46px] md:mt-0">
+            <div className="flex md:justify-center gap-1 md:gap-[23px] flex-col md:flex-row mt-[46px] md:mt-0  w-full px-3">
                 <BtnG />
                 <BtnT />
             </div>
