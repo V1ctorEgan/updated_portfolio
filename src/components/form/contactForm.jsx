@@ -60,7 +60,7 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="bg-[#222222] w-full h-[572px] rounded-[16px] p-[33px]">
-      <div className="flex gap-[16px] mb-[24px]">
+      <div className="md:flex gap-[16px] mb-[24px] ">
         <div className="w-full">
           <p className="text-white text-[14px]"><label htmlFor="name-input">Name</label></p>
           <input
