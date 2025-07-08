@@ -27,7 +27,7 @@ export default function TypingText() {
   }, [index]);
 
   return (
-    <div className="text-green-400 md:text-xl lg:text-2xl text-[14px] ">
+    <div className="text-green-400 md:text-xl lg:text-2xl text-[14px] whitespace-nowrap select-none">
       {displayedText}
       <span className="inline-block animate-pulse">|</span>
 
