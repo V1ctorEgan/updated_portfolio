@@ -10,7 +10,7 @@ const Navbar = () =>{
 
     }
     return(
-        <div className="items-center flex w-full top-0  z-10 bg-[#222222] h-[60px] text-white fixed border border-black ">
+        <div className="items-center flex w-full top-0  z-10 bg-[#222222] h-[60px] text-white fixed">
             <Logo />
             <p className="hover:scale-110 z-40">Egan Developer</p>
             <div className="md:flex ml-auto md:w-[473px] mr-[41px] justify-evenly hidden">
